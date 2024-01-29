@@ -6,7 +6,7 @@ import static org.assertj.core.api.Assertions.*;
 class CounterTest {
 
     @Test
-    void whenStartNegativeFinishPositiveSumZero() {
+    void whenSumNumbersFromMinus10To10Then0() {
         int start = -10;
         int finish = 10;
         int expected = 0;
@@ -15,7 +15,7 @@ class CounterTest {
     }
 
     @Test
-    void whenStartNegativeFinishPositiveSumNegative() {
+    void whenSumNumbersFromMinus11To10ThenMinus11() {
         int start = -11;
         int finish = 10;
         int expected = -11;
@@ -24,7 +24,7 @@ class CounterTest {
     }
 
     @Test
-    void whenStartNegativeFinishPositiveSumPositive() {
+    void whenSumNumbersFromMinus10To11Then11() {
         int start = -10;
         int finish = 11;
         int expected = 11;
@@ -33,7 +33,7 @@ class CounterTest {
     }
 
     @Test
-    void whenStartZeroFinishPositiveSumPositive() {
+    void whenSumNumbersFrom0To10Then55() {
         int start = 0;
         int finish = 10;
         int expected = 55;
@@ -42,7 +42,7 @@ class CounterTest {
     }
 
     @Test
-    void whenStartNegativeFinishZeroSumNegative() {
+    void whenSumNumbersFromMinus10To0ThenMinus55() {
         int start = -10;
         int finish = 0;
         int expected = -55;
@@ -51,7 +51,7 @@ class CounterTest {
     }
 
     @Test
-    void whenStartZeroFinishZeroSumZero() {
+    void whenSumNumbersFrom0To0Then0() {
         int start = 0;
         int finish = 0;
         int expected = 0;
@@ -60,7 +60,7 @@ class CounterTest {
     }
 
     @Test
-    void whenStartGreaterFinishSumZero() {
+    void whenSumNumbersFrom10To0Then0() {
         int start = 10;
         int finish = 0;
         int expected = 0;
@@ -69,7 +69,7 @@ class CounterTest {
     }
 
     @Test
-    void whenStartPositiveEqualsFinishSumPositive() {
+    void whenSumNumbersFrom10To10Then10() {
         int start = 10;
         int finish = 10;
         int expected = 10;
@@ -78,7 +78,7 @@ class CounterTest {
     }
 
     @Test
-    void whenStartNegativeEqualsFinishSumNegative() {
+    void whenSumNumbersFromMinus10ToMinus10ThenMinus10() {
         int start = -10;
         int finish = -10;
         int expected = -10;
