@@ -47,4 +47,5 @@ public class Fit {
         double man = Fit.manWeight(height);
         System.out.printf("Идеальный вес для мужчины с ростом %d см составляет %.2f кг%n", height, man);
     }
+
 }

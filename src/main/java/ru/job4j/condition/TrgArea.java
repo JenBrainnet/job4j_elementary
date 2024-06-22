@@ -39,4 +39,5 @@ public class TrgArea {
             System.err.println("Ошибка: " + e.getMessage());
         }
     }
+
 }

@@ -4,8 +4,6 @@ package ru.job4j.converter;
  * Класс для конвертации рублей в евро и доллары.
  */
 public class Converter {
-
-    // Константы для курсов валют
     private static final float EURO_RATE = 70;
     private static final float DOLLAR_RATE = 60;
 

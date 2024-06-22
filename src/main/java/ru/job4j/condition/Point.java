@@ -22,4 +22,5 @@ public class Point {
         double result = Point.distance(1, 9, 2, 15);
         System.out.println("result (1, 9) to (2, 15) " + result);
     }
+
 }

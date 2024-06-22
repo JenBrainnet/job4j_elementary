@@ -20,4 +20,36 @@ class FitTest {
         double out = Fit.womanWeight(in);
         assertThat(out).isEqualTo(expected, withPrecision(0.01));
     }
+
+    @Test
+    void whenManHeight187ThenWeight100dot05() {
+        double expected = 100.05;
+        short heightMan = 187;
+        double out = Fit.manWeight(heightMan);
+        assertThat(out).isEqualTo(expected, withPrecision(0.01));
+    }
+
+    @Test
+    void whenManHeight170ThenWeight80dot5() {
+        double expected = 80.5;
+        short heightMan = 170;
+        double out = Fit.manWeight(heightMan);
+        assertThat(out).isEqualTo(expected, withPrecision(0.01));
+    }
+
+    @Test
+    void whenWomanHeight170ThenWeight69dot0() {
+        double expected = 69.0;
+        short heightWoman = 170;
+        double out = Fit.womanWeight(heightWoman);
+        assertThat(out).isEqualTo(expected, withPrecision(0.01));
+    }
+
+    @Test
+    void whenWomanHeight160ThenWeight57dot5() {
+        double expected = 57.5;
+        short heightWoman = 160;
+        double out = Fit.womanWeight(heightWoman);
+        assertThat(out).isEqualTo(expected, withPrecision(0.01));
+    }
 }
