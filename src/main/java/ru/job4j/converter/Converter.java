@@ -28,7 +28,6 @@ public class Converter {
         if (value < 0) {
             throw new IllegalArgumentException("Количество рублей не может быть отрицательным");
         }
-
         return value / DOLLAR_RATE;
     }
 

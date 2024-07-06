@@ -7,7 +7,6 @@ public class StringUsage {
         System.out.println("Length of string FIRST: " + first.length());
         String second = "aaabbbvdddrrr";
         System.out.println("Length of string SECOND: " + second.length());
-
         String input = "aaabbbvdddrrr";
         System.out.println("Symbol with index = 2: " + input.charAt(2));
         System.out.println("Symbol with index = 3: " + input.charAt(3));

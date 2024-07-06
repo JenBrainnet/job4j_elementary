@@ -14,12 +14,10 @@ public class Remain {
         System.out.println("Результат вычисления остатка от деления:" + modulo(15, 5));
         System.out.println("Результат вычисления остатка от деления:" + modulo(17, 3));
         System.out.println();
-
         System.out.println("Результат вычисления остатка от деления:" + 7 % 3);
         System.out.println("Результат вычисления остатка от деления:" + 15 % 5);
         System.out.println("Результат вычисления остатка от деления:" + 17.5 % 3);
         System.out.println();
-
         System.out.println("Результат вычисления остатка от деления: " + -7 % 3);
         System.out.println("Результат вычисления остатка от деления: " + -15 % 5);
         System.out.println("Результат вычисления остатка от деления: " + -17 % -3);

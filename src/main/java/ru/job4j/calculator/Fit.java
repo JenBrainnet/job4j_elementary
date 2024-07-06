@@ -33,7 +33,6 @@ public class Fit {
         if (height <= 0) {
             throw new IllegalArgumentException("Рост должен быть больше нуля");
         }
-
         double result = (height - adjustment) * 1.15;
         return result;
     }
